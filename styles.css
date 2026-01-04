@@ -27,6 +27,7 @@ li {
 }
 .flex {
     display: flex;
+    
 }
 .flex-1 {
     flex:1;
@@ -163,25 +164,26 @@ padding-top: 20px;
 
 .language_img {
     width: 100%;
-    max-width: 100;
+    max-width: 100px;
+    
     
     
 }
 
 .language {
-    width: 50%;
+    width: 25%;
     
 }
 
 .language_img--wrapper {
     display: flex;
     justify-content: center;
-    
-    
+    align-items: center;
     
 }
 
 .languages_list {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
 }
