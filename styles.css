@@ -257,6 +257,7 @@ padding-top: 20px;
     transform: translateY(-50%);
     max-width: 550px;
     z-index: 3;
+     
 }
 
 .project_description--title {
@@ -265,6 +266,7 @@ padding-top: 20px;
 
 .project_description--para {
     margin: 16px 0;
+     
 }
 
 .project_description--link {
@@ -278,5 +280,5 @@ padding-top: 20px;
 .project_description--para,
 .project_description--link {
     text-align: left;
-    color: #fff;
+    color: #1c1d25;
 }
