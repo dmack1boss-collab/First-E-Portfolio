@@ -219,11 +219,11 @@ padding-top: 20px;
     transition: all 500ms ease;
 }
 
-.project_wrapper,.project_description {
+.project_wrapper, .project_description {
     display: flex;
     box-shadow: 0 20px 80px rgba(0, 0, 0, 0.45);
     border-radius: 20px;
-    overflow: hidden;
+    overflow: ;
     position: relative;
 }
 
@@ -254,10 +254,10 @@ padding-top: 20px;
     position: absolute;
     top: 50%;
     left: 90px;
-    transform: translateY(-50%);
+    transform: translateY(-40%);
     max-width: 550px;
     z-index: 3;
-     
+
 }
 
 .project_description--title {
@@ -266,9 +266,7 @@ padding-top: 20px;
 
 .project_description--para {
     margin: 16px 0;
-    
-    
-     
+      
 }
 
 .project_description--link {
