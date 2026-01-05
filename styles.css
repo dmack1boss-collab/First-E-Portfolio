@@ -219,7 +219,7 @@ padding-top: 20px;
     transition: all 500ms ease;
 }
 
-.project_wrapper {
+.project_wrapper,.project_description {
     display: flex;
     box-shadow: 0 20px 80px rgba(0, 0, 0, 0.45);
     border-radius: 20px;
@@ -230,9 +230,9 @@ padding-top: 20px;
 .project_wrapper:before {
     content: "";
     position:absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
+    top: 50%;
+    left: 90%;
+    height: 0;
     width: 100%;
     background-color: #1c1d25;
     opacity: 0;
@@ -266,6 +266,8 @@ padding-top: 20px;
 
 .project_description--para {
     margin: 16px 0;
+    
+    
      
 }
 
@@ -281,4 +283,5 @@ padding-top: 20px;
 .project_description--link {
     text-align: left;
     color: #1c1d25;
+    
 }
