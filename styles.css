@@ -310,7 +310,7 @@ footer {
 
 .footer_row {
 display: flex;
-flex-direction: ;
+flex-direction: column;
 align-items: center;
 justify-content: center;
 padding: 8% 0;
@@ -320,13 +320,14 @@ padding: 8% 0;
 .footer_logo--img {
     width: 70px;
     height: 70px;
+    
 }
 
 .footer_social--list,
 .footer_copyright {
     color: #fff;
     display: flex;
-
+    rela
 }
 
 
